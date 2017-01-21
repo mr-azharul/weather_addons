@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Weather Addons",
+  "version": "1.0",
+
+  "description": "A Weather Checker Addons",
+  "icons": {
+    "32":"icons/icon1.jpeg",
+    "48": "icons/icon2.jpeg",
+    "96": "icons/icon2.jpeg"
+  },
+  "author": "Azharul Islam",
+  "applications": {
+  "gecko": {
+    "id": "weather@addons",
+    "strict_min_version": "42.0",
+    "strict_max_version": "50.*"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon1.jpeg"
+    },
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "webRequest"
+  ]
+}
